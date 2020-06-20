@@ -1,0 +1,140 @@
+body {
+    background-color: yellowgreen ;
+}
+
+header {
+      background-color: yellowgreen ;
+      color: #1a1a1a;
+      padding: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+  }
+ 
+ nav form {
+  float: right;
+ }
+
+ nav input label {
+   padding-bottom: 10px;
+ }
+
+nav ul{
+   
+   list-style-type: none;
+   margin: 0;
+   padding: 10px;
+   overflow: hidden;
+   background-color: #333333;
+}
+
+/* common li-list item state style  */
+nav li a {
+    float: left;
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    
+    
+  }
+/*
+   handling of style change for appropriate activation state of hyperlinks */
+  nav li a:hover {
+    color: #60c538;
+  }
+
+  /* visited hypwerlinks */
+  nav li a:visited {
+    color: #ccc;
+  }
+
+  nav li a:active {
+    color: #fff;
+  }
+ 
+  /* normal state of hyperlink */
+  nav li a:link {
+    color: #fff;
+  }
+
+  article {
+    background-color: white;
+    color: #222;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+article h1 {
+    background-color: white;
+    font-size: 30px;
+    color: #1a1a1a;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    
+}
+ footer {
+    background-color: grey ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding: 15px;
+}
+
+footer .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  footer .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  section .column {
+    float: left;
+    width: 33.33%;
+    border: left;
+    /* border-style: solid; */
+    border-left-color: #3c763d;
+    text-align: left;
+    border-left-width: 4px;
+    border-left-style: solid;
+    
+    background-color: #afd76b;
+    box-sizing: border-box; /* for fitting columns into one row !!! */
+    padding: 10px;
+  }
+
+p.column-header {
+    text-transform: capitalize; 
+    text-transform: uppercase;
+  }
+
+   p.column {
+    text-align: justify ;
+    text-justify: auto;
+    padding-bottom: 5px;
+  }
+
+ 
+  
+  /* Clear floats after the columns */
+  section .row:after {
+    content: "";
+    display: table;
+    clear: both;
+   
+  }
+
+
+video {
+    
+    padding-bottom: 15px;
+    
+}
+
+
