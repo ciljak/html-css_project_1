@@ -10,7 +10,7 @@ $(document).ready(function(){
             alert("Your are a - " + radioValue);
           }
         */
-       
+
         if(radioValue == "white" ){
             $("article").css("background-color", "white");
             $("article h1").css("background-color", "white");
@@ -27,3 +27,5 @@ $(document).ready(function(){
         }
     });
 });
+
+

@@ -133,6 +133,13 @@ footer .column {
     box-sizing: border-box; /* for fitting columns into one row !!! */
     
   }
+
+  .clanky {
+    float: left;
+    
+   
+    
+  }
   
   /* Clear floats after the columns */
   footer .row:after {
@@ -147,11 +154,21 @@ footer .column {
   footer .column{
     padding : 5px;
     
-    background-color: white;
-    border-right:4px;
+    background-color: #AAA;
+    border:4px;
     border-color: grey;
-    border-right-style: solid;
+    border-style: dotted;
+
+    -webkit-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.68); 
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.68);
     
+    
+    
+  }
+
+  footer h4{
+    padding-left : 10px;
+    color: #222;
     
     
   }
@@ -198,5 +215,7 @@ video {
     padding-bottom: 15px;
     
 }
+
+
 
 
